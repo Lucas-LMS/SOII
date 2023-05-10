@@ -1,3 +1,5 @@
+/* Autores: Iago Rafael Lucas Martins (119181254) e Lucas Moreno Silva (119140949) */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
