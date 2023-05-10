@@ -18,7 +18,9 @@ int isopen(int fd) {
 int main(void) {
     int nopen = 0, fd;
     for (fd = 0; fd < getdtablesize(); fd++) {
+        // percorre todos os possíveis descritores de arquivo (de 0 a getdtablesize() - 1)
         if (isopen(fd)) {
+            // conta quantos deles estão abertos, utilizando a função isopen
             nopen++;
         }
     }
